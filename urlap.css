@@ -96,6 +96,10 @@ footer {
     padding-bottom: 4px;
 }
 
+label{
+    padding-left: 40px;
+}
+
 footer a {
     text-decoration: none;
     color: white;
