@@ -19,6 +19,7 @@ main {
     background-color: #040a09;
     margin: auto;
     width: 70%;
+    text-align: center;
 }
 
 .navbar {
@@ -60,6 +61,12 @@ header {
     margin-bottom: 50px;
 }
 
+
+.nev {
+    color:#a855f7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder; 
+}
 .cim {
     color:#a855f7;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
