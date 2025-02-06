@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="urlap.css">
+    <title>Tordai Levente - Viczai Milán</title>
+</head>
+<body>
+    <main>
+        <header>
+        </header>
+        <nav>
+        </nav>
+        <article>
+            <form>
+                <fieldset class="karakterek">
+                    <legend>League of Legends karakterek</legend>
+                    <div>
+                        <label for="nev">Karakter neve</label>
+                        <input type="text" name="nev" id="nev" placeholder="Karakter neve">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Karakter neme</legend>
+                    <div>
+                        <label for="nem">Férfi</label>
+                        <input type="radio" name="nem" id="ferfi">
+                        <label for="nem">Nő</label>
+                        <input type="radio" name="nem" id="no">
+                        <label for="nem">Egyéb</label>
+                        <input type="radio" name="nem" id="egyeb">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Sebzés típusa</legend>
+                    <div>
+                        <label for="sebzes">Fizikai</label>
+                        <input type="radio" name="sebzes" id="fizikai">
+                        <label for="sebzes">Varázs</label>
+                        <input type="radio" name="sebzes" id="varazs">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Megjelenési év</legend>
+                    <div>
+                        <input type="number" name="ev" id="ev" min="2000" max="2025" step="1">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Tartózkodási hely</legend>
+                    <div>
+                        <label for="regio"></label>
+                        <input type="text" name="regio" id="regio">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Nehézségi szint</legend>
+                    <div>
+                        <label for="nehezseg">Nehéz</label>
+                        <input type="radio" name="nehezseg" id="nehez">
+                        <label for="nehezseg">Közepes</label>
+                        <input type="radio" name="nehezseg" id="kozepes">
+                        <label for="nehezseg">Könnyű</label>
+                        <input type="radio" name="nehezseg" id="konnyu">
+                    </div>
+                </fieldset>
+                <button type="submit">Hozzáadás</button>
+            </form>
+        </article>
+        <footer>
+        </footer>
+    </main>
+</body>
